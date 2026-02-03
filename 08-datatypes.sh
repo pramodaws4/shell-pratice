@@ -11,3 +11,6 @@ num4=4
 Sum=$(($num3 + $num4))
 echo "Sum of $num3 and $num4 is: $Sum"  
 
+##arrays or lists
+FRUITS=("Apple" "Banana" "Orange" "Mango")
+echo "Fruits in the list are: ${FRUITS[@]}"
