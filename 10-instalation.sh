@@ -1,9 +1,10 @@
 #!/bin/bash
 
 USERID=$(id -u)
+
 if [ $USERID -ne 0 ]; then
-echo "Please run as root user."
+echo "Please run this root user access."
 fi
 
-echo "installing inginx"
-dnf install inginx -y
+echo "installing nginx"
+dnf install nginx -y
