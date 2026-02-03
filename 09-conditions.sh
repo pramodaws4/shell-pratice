@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NUMBAR=1
+NUMBER=1
 #conditions in shell scripting
 # if condition
   # -gt : greater than
