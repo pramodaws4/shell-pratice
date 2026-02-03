@@ -9,9 +9,9 @@ NUMBAR=1
   # -ne : not equal to
   # -ge : greater than or equal to
   # -le : less than or equal to
-if [$NUMBER -gt 20]; then
+if [ $NUMBER -gt 20 ]; then
   echo "given number $NUMBER is grater than 20"
-elif [$NUMBER -eq 20]; then
+elif [ $NUMBER -eq 20 ]; then
   echo "given number $NUMBER is equal to 20"
 else
   echo "given number $NUMBER is less than 20"
