@@ -7,4 +7,4 @@ Y='\e[33m' #yellow
 B='\e[34m' ##blue
 D='\e[0m' ##default color
 
-echo -e "$R iam uarning $b iam luarning linux shell scripting $D"
+echo -e "$R hello world $B iam luarning linux shell scripting"
