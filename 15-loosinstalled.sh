@@ -22,9 +22,9 @@ fi
 
 for package in $@
 do
-    dnf install $package -y    &>> $LOG_FILE
-    if [$? -ne 0 ]; then
-        echo "$package not installed .. installing now" | tee -a $LOG_FILE
+    dnf list installed $package &>> $LOG_FILE
+    if [ $? -ne 0 ]; then
+     echo "$package not installed .. installing now" | tee -a $LOG_FILE
         dnf  install $package -y    &>> $LOG_FILE
         validate $? "$package installing"
     else
