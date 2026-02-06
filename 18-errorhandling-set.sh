@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e # it will check for errors if error exit it's stopes
+   #set -e # it will check for errors if error exit it's stopes
 
 USERID=$(id -u)
 LOG_FOLDER="/ver/log/shell-script"
